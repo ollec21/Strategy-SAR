@@ -13,7 +13,7 @@ struct Stg_SAR_Params_M15 : StgParams {
   // Struct constructor.
   Stg_SAR_Params_M15() : StgParams(stg_sar_defaults) {
     lot_size = 0;
-    signal_open_method = 0;
+    signal_open_method = 4;
     signal_open_filter = 1;
     signal_open_level = 0;
     signal_open_boost = 0;
